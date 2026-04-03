@@ -212,7 +212,7 @@
       // handles switching and conversion of exercises
       if (typeof o.type === 'object') {
         // the `begin` query in the URL determines the exercise to immediately start (without popup confirmation)
-        // example: https://sethclydesdale.github.io/genki-study-resources/lessons-3rd/lesson-4/vocab-1/?begin=1 (this starts multiple choice, 0 would start drag and drop)
+        // example: https://tylerjaacks.github.io/genki-study-resources/lessons-3rd/lesson-4/vocab-1/?begin=1 (this starts multiple choice, 0 would start drag and drop)
         // `begin` or `start` may be used equally, whichever is preferred.
         var begin = /(?:begin|start)=\d/.test(window.location.search) ? window.location.search.replace(/.*?(?:begin|start)=(\d).*/, '$1') : false,
             i = 0, j = o.type.length, opts = '', modal;
@@ -2238,9 +2238,9 @@
           '</div>'+
           '<div id="related" class="indent-block">'+
             '<h3><span class="en">Related Projects</span><span class="ja">関連のプロジェクト</span></h3>'+
-            '<a href="https://sethclydesdale.github.io/tobira-study-resources/" title="Tobira Study Resources"><img src="' + getPaths() + 'resources/images/tobira-img.png" alt="Tobira Study Resources"></a>'+
-            '<a href="https://sethclydesdale.github.io/quartet-study-resources/" title="Quartet Study Resources"><img src="' + getPaths() + 'resources/images/quartet-img.png" alt="Quartet Study Resources"></a>'+
-            '<a href="https://sethclydesdale.github.io/colloquial-kansai-dictionary/" title="Colloquial Kansai Japanese"><img src="' + getPaths() + 'resources/images/kansai-img.png" alt="Colloquial Kansai Japanese"></a>'+
+            '<a href="https://tylerjaacks.github.io/tobira-study-resources/" title="Tobira Study Resources"><img src="' + getPaths() + 'resources/images/tobira-img.png" alt="Tobira Study Resources"></a>'+
+            '<a href="https://tylerjaacks.github.io/quartet-study-resources/" title="Quartet Study Resources"><img src="' + getPaths() + 'resources/images/quartet-img.png" alt="Quartet Study Resources"></a>'+
+            '<a href="https://tylerjaacks.github.io/colloquial-kansai-dictionary/" title="Colloquial Kansai Japanese"><img src="' + getPaths() + 'resources/images/kansai-img.png" alt="Colloquial Kansai Japanese"></a>'+
           '</div>';
         
         if (Genki.exercises) {

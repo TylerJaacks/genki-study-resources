@@ -191,7 +191,7 @@
                 width: 300,
                 height: 300,
                 channel: 'sethc95',
-                parent: ['sethclydesdale.github.io'],
+                parent: ['tylerjaacks.github.io'],
                 muted: true,
                 autoplay: false
               };

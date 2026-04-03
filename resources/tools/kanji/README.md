@@ -4,7 +4,7 @@ This folder contains [Anki](https://apps.ankiweb.net/) decks for the Kanji in Ge
 
 ### How to Download the Decks
 
-You can download the decks online [here](https://sethclydesdale.github.io/genki-study-resources/help/anki-decks/). The instructions below are for downloading from GitHub.
+You can download the decks online [here](https://tylerjaacks.github.io/genki-study-resources/help/anki-decks/). The instructions below are for downloading from GitHub.
 
 To download a single deck, you can go to an edition's folder, click the deck, and then download it via the download button. 
 

@@ -1,6 +1,6 @@
 // Google Analytics/Adsense
 // disabled if used locally or on another host
-if (window.location.hostname == 'sethclydesdale.github.io') {
+if (window.location.hostname == 'tylerjaacks.github.io') {
   // Analytics
   (function (window, document, id) {
     var gtag = document.createElement('SCRIPT');
